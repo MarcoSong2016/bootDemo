@@ -15,6 +15,6 @@ public class BootdemoApplication {
 
     @GetMapping(value = "hello")
     public String sayHello() {
-        return "hello world jenkins..";
+        return "hello world jenkins.";
     }
 }
